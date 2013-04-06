@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "socket.io": "0.9.13",
+    "box2dweb-commonjs": "2.1.0",
+    "express": "3.0.4"
+  }
+}
