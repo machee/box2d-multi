@@ -164,7 +164,7 @@ var loop = function(callback) {
     }
   }
 
-  process.nextTick(function(){callback(callback);});
+  setImmediate(function(){callback(callback);});
 };
 
 function newPlayer(id) {

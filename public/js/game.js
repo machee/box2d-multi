@@ -1,7 +1,7 @@
 
 var init = function()
 {
-  var socket   = io.connect('http://10.10.220.210');
+  var socket   = io.connect();
   var bodies   = {};
   var junk     = {};
   var playerId = false;
